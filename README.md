@@ -2,7 +2,7 @@
 
 A Tensorflow neural network model to classify digits from the MNIST dataset, reaching 97.5% accuracy on the test set.
 
-This is my pet project to retain my ML learnings, and also figure out the setup of Jupyter Notebook projects with GitHub. 
+This is a simple project to retain my ML learnings, and also figure out the setup of Jupyter Notebook projects with GitHub. 
 
 ## Model Architecture
 
