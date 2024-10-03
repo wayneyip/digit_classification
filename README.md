@@ -1,24 +1,25 @@
 # MNIST Digit Classification
 
-A Tensorflow neural network model to classify digits from the MNIST dataset, reaching 97.5% accuracy on the test set.
+A Tensorflow neural network model to classify digits from the MNIST dataset, reaching 99.4% accuracy on the test set.
 
-This is a simple project to retain my ML learnings, and also figure out the setup of Jupyter Notebook projects with GitHub. 
+I started this project to do hands-on experimentation with my theoretical learnings, and also to give myself a gentle introduction to CNNs.    
 
 ## Model Architecture
 
 - **Input layer**:
-  - 28x28 pixel images (flattened into 1D vectors)
+  - 28x28 pixel images 
 - **Hidden layers**:
-  - Dense layer, 256 units, ReLU activation
-  - Dense layer, 32 units, ReLU activation
+  - 2D convolutional layer, 32 filters, size 5x5, ReLU activation
+  - 2D convolutional layer, 64 filters, size 5x5, ReLU activation
+  - 2D convolutional layer, 64 filters, size 3x3, ReLU activation
 - **Output layer**:
   - Dense layer, 10 units, softmax activation   
 
 ## Performance
 
-- **Accuracy**: 97.5% on MNIST test set
+- **Accuracy**: 99.4% on MNIST test set
 - **Loss Function**: Sparse Categorical Crossentropy
-- **Optimizer**: Adam, with learning rate of 0.001
+- **Optimizer**: Adam, learning rate 0.001
 - **Metrics**: Sparse Categorical Accuracy
 
 ## Dataset
